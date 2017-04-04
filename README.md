@@ -1,4 +1,4 @@
-# Scraper 26: Scraping CSV files - from the [ebook Scraping for Journalists](http://leanpub.com/scrapingforjournalists)
+# Scraper 26: Scraping CSV files (scraper 1) - from the [ebook Scraping for Journalists](http://leanpub.com/scrapingforjournalists)
 
 This scraper generates an error because some of the columns use a £ character.
 
