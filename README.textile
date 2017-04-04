@@ -1,7 +1,5 @@
 Demonstration scraper for the "ebook Scraping for Journalists":http://leanpub.com/scrapingforjournalists
 
-This second scraper tries to address the UTF error in "the previous version":https://scraperwiki.com/scrapers/birminghamcouncilexpenditure/ by using the .decode("utf-8") method.
+This scraper generates an error because some of the columns use a `£` character.
 
-That stops the previous error. Now, however, we get a new error: UnicodeDecodeError: 'utf8' codec can't decode byte 0xa3 in position 1: invalid start byte
-
-But this helps us better identify what our problem is, "in the next version":https://scraperwiki.com/scrapers/birminghamcouncilexpenditure_3rd/
+A [separate scraper](https://morph.io/paulbradshaw/simple_csv_scraper) solves that problem by decoding from latin into Unicode.
